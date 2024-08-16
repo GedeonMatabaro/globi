@@ -4,5 +4,11 @@
       "path": "/api/clear-uploads",
       "schedule": "0 2 * * *"
     }
-  ]
+  ], 
+  "build": {
+    "env": {
+      "NPM_CONFIG_USER_AGENT": "pnpm"
+    }
+  }
+  
 }
